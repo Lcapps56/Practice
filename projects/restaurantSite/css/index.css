@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    min-width: 100%;
+}
+
+#landing{
+    margin: 0px;
+    padding: 0px;
+    height: 750px;
+    width: 100%;
+    background-image: url("../images/restaurantBG.jpg");
+    background-position: center;
+    position: fixed;
+    background-size: cover;
+
+}
+nav h1{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    margin: 15px 50px;
+}
+nav{
+    margin: 15px 50px;   
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+#slogan{
+    color: white;
+    font-size: 100px;
+    font-weight: lighter;
+    display: block;
+    margin-top: 200px 80px;;
+}
