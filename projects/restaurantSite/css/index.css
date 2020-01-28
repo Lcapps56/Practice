@@ -11,7 +11,7 @@ body{
     width: 100%;
     background-image: url("../images/restaurantBG.jpg");
     background-position: center;
-    position: fixed;
+    /* position: fixed; */
     background-size: cover;
 
 }
@@ -23,6 +23,7 @@ nav h1{
 }
 nav{
     margin: 15px 50px;   
+    margin-top: 0px;    
 }
 nav ul{
     float: right;
@@ -37,10 +38,43 @@ nav ul li a {
     font-size: 25px;
 }
 
+#Hsection{
+    margin: 225px 80px;
+
+}
 #slogan{
     color: white;
     font-size: 100px;
     font-weight: lighter;
     display: block;
-    margin-top: 200px 80px;;
+    margin-bottom: 0px;
 }
+.Hbtn{
+    background: none;
+    border: white 1px solid;
+    padding: 5px 8px;
+    margin: 10px;
+    color: white;
+    font-size: 18px;    
+    font-weight: lighter;
+}
+.Hbtn:hover{
+    background: white;
+    color: black;
+}
+section{
+    height: 400px;
+    background: #f7f7f7;
+    padding: 100px;
+}
+section img{
+    height: 400px;
+    width: 400px;
+}
+#Sinfo{
+    display: block;
+    float: right;
+    background: red;
+}
+
+
