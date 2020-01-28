@@ -62,19 +62,67 @@ nav ul li a {
     background: white;
     color: black;
 }
-section{
+#S1{
     height: 400px;
     background: #f7f7f7;
-    padding: 100px;
+    padding: 80px;
 }
 section img{
     height: 400px;
-    width: 400px;
+    width: 300px;
+    width: 40%;
+    float: left;
 }
 #Sinfo{
-    display: block;
+    width: 60%;
     float: right;
-    background: red;
+    margin: 100px 0px;
+}
+
+#menu{
+    background: white;  
+    padding: 150px;      
+}
+#menu h1{
+    margin-top: 20px;
+    text-align: center;     
+}
+#pizza {
+    background-image: url("../images/shallow-focus-photography-of-several-pizzas-1566837.jpg");
+    background-size: cover;
+    background-position: center; 
+    height: 200px;
+    width: 100%;
+    margin: 50px 0px;
+}
+#pizza h2{
+    padding-top: 50px;
+    text-align: center;
+}
+#pasta {
+    background-image: url("../images/cooked-pasta-on-brown-wooden-bowl-803963.jpg"); 
+    background-size: cover;
+    background-position: center;  
+    /* background: red; */
+    height: 300px;
+    display: block;
+    float: left;
+    width: 48%;
+
+    /* margin-left: 155px; */
+}
+
+#salad {
+    background-image: url("../images/appetizer-close-up-cuisine-delicious-434258.jpg    ");
+    background-size: cover;
+    background-position: center; 
+    /* background: red; */
+    height: 300px;
+    width: 48%;
+    display: block;
+    float: right;   
+    
+    /* margin-left: 155px; */
 }
 
 
