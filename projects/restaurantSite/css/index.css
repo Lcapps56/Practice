@@ -2,28 +2,28 @@ body{
     margin: 0px;
     padding: 0px;
     min-width: 100%;
+    font-family: 'Bebas Neue', cursive;
 }
 
 #landing{
     margin: 0px;
     padding: 0px;
-    height: 750px;
+    height: 700px;
     width: 100%;
     background-image: url("../images/restaurantBG.jpg");
     background-position: center;
-    /* position: fixed; */
     background-size: cover;
 
 }
 nav h1{
     display: inline-block;
     color: white;
-    font-size: 30px;
+    font-size: 45px;
     margin: 15px 50px;
 }
 nav{
     margin: 15px 50px;   
-    margin-top: 0px;    
+    margin-top: 20px;    
 }
 nav ul{
     float: right;
@@ -35,11 +35,14 @@ nav ul li{
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 #Hsection{
-    margin: 225px 80px;
+    margin: 200px 120px;
 
 }
 #slogan{
@@ -48,84 +51,118 @@ nav ul li a {
     font-weight: lighter;
     display: block;
     margin-bottom: 0px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 10px;
 }
 .Hbtn{
     background: none;
     border: white 1px solid;
     padding: 5px 8px;
-    margin: 10px;
+    margin-right: 40px;
+    margin-top: 0px;
     color: white;
     font-size: 18px;    
     font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+
 }
 .Hbtn:hover{
     background: white;
     color: black;
 }
+/* end head styles */
+
+/* begin section 1 styles */
 #S1{
     height: 400px;
-    background: #f7f7f7;
-    padding: 80px;
+    background: #F5F3F1;
+    padding: 120px;
 }
 section img{
-    height: 400px;
-    width: 300px;
+    height: 350px;
     width: 40%;
     float: left;
+    margin-left: 50px;
 }
 #Sinfo{
-    width: 60%;
+    width: 35%;
     float: right;
-    margin: 100px 0px;
+    margin: 80px 0px;
+    margin-right: 150px
+    /* padding: 0px 80px;     */
 }
+#Sinfo h3{
+    font-size: 38px;
+    margin: 0px;
+}
+#Sinfo p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+/* end section 1 styles */
 
+/* begin menu styles */
 #menu{
     background: white;  
     height: 700px;
-    padding: 0px 150px; 
+    padding: 0px 0px; 
+    margin-bottom: 180px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;  
 }
+
 #menu h1{
-    margin-top: 0px;
-    text-align: center;     
+    margin: 100px;
+    margin-bottom: 0px;
+    font-size: 55px; 
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
+  
+}
+#menu p{
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+
+.item{
+    height: 650px;
+    width: 17%;
+    display: inline-block;
+    margin: 0px 10px;
+    background-size: cover;
+    background-position: center; 
+
+}
+.title{
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-weight: lighter;
+    
 }
 #pizza {
-    background-image: url("../images/shallow-focus-photography-of-several-pizzas-1566837.jpg");
-    background-size: cover;
-    background-position: center; 
-    height: 200px;
-    width: 100%;
-    margin: 50px 0px;
-}
-#pizza h2{
-    padding-top: 50px;
-    text-align: center;
+    background-image: url("../images/pizzaBGBlack.jpg");
+    
 }
 #pasta {
-    background-image: url("../images/cooked-pasta-on-brown-wooden-bowl-803963.jpg"); 
-    background-size: cover;
-    background-position: center;  
-    /* background: red; */
-    height: 300px;
-    display: block;
-    float: left;
-    width: 48%;
-
-    /* margin-left: 155px; */
+    background-image: url("../images/pastaBGBlack.jpg"); 
 }
-
 #salad {
-    background-image: url("../images/appetizer-close-up-cuisine-delicious-434258.jpg    ");
-    background-size: cover;
-    background-position: center; 
-    /* background: red; */
-    height: 300px;
-    width: 48%;
-    display: block;
-    float: right;   
-    
-    /* margin-left: 155px; */
+    background-image: url("../images/saladBGBlack.jpg");
+}
+#wine{
+    background-image: url("../images/WingBGBlack.jpg");
+}
+#apps{
+    background-image: url("../images/appetizersBGBlack.jpg");
+  
 }
 
+/* end menu styles */
+
+/* begin reservation styles */
 #reserve{
     background-image: url("../images/alcohol-architecture-bar-beer-260922.jpg");
     background-size: cover; 
@@ -133,13 +170,18 @@ section img{
     /* background: red; */
     height: 400px;
     width: 100%;
+    margin-bottom: 150px;   
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
 }
 #Rinfo{
     padding: 150px;
-}
+}   
 #Rinfo{
+
     font-size: 25px;
     color: white;
+    font-weight: lighter;
 }
 #Rinfo button{
     background: none;
@@ -147,91 +189,81 @@ section img{
     color: white;
     padding: 8px 25px;
     font-size: 16px;
+    font-weight: lighter;
+
 }
 #Rinfo button:hover{
     background: white;
     color:   black;
 }
- 
+/* end reservation styles */
+
+/* begin gallery styles */
 #gallery{
     height: 100%;
-    max-height: 700px;
+    max-height: 900px;
     width: 100%;
-    background: #f7f7f7;    
+    background: #f7f7f7; 
+    margin: 0px;
+    margin-bottom: 100px;
+    padding: 0px;   
 }
-#row1{
+.row{
     display: inline-block;
-    width: 33.1%;
+    width: 33.2%;
+    height: 100%;
     overflow: auto;
     margin: 0px;
+    padding: 0px;   
+}
+.img{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-bottom: 4px;
+
 }
 #img1{
     background-image: url("../images/shallow-focus-photography-of-several-pizzas-1566837.jpg");
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 2px;
-    width: 100%;
     height: 400px;
 }
 #img2{
     background-image: url("../images/appetizer-close-up-cuisine-delicious-434258.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
     height: 300px;
 }
-
-#row2{
-    display: inline-block;
-    width: 33.1%;
-    overflow: auto;
-    margin: 0px;
-
-}
 #img3{
-    background-image: url("../images/restaurantBG.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+    background-image: url("../images/gallery3.jpg");
     height: 250px;
 }
 #img4{
     background-image: url("../images/gallery1.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
     height: 450px;
 }
 
-#row3{
-    display: inline-block;
-    width: 33.1%;
-    overflow: auto;
-    margin: 0px;
-
-}
 #img5{
     background-image: url("../images/gallery2.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
     height: 350px;
-
 }
 #img6{
-    background-image: url("../images/gallery3.jpg");
-    background-size: cover;
-    background-position: center;
+    background-image: url("../images/restaurantBG.jpg");
     height: 350px;
-    width: 100%;
 }
+/* end gallery styles */
+
+/* begin contact syles */
 
 #contact{
     text-align: center;
     margin: auto;
+    margin-bottom: 100px;
+}
+#contact p{
+    font-family: 'Roboto', sans-serif;
+
 }
 #contact h1{
-    font-size: 30px;
+    font-size: 35px;
+    margin-bottom: 0px;
 }
 #info{
     text-align: center;
