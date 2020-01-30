@@ -23,10 +23,11 @@ nav h1{
 }
 nav{
     margin: 15px 50px;   
-    margin-top: 20px;    
+    margin-top: 0px;    
 }
 nav ul{
     float: right;
+    padding-top: 15px;
 }
 nav ul li{
     display: inline-block;
@@ -38,9 +39,12 @@ nav ul li a {
     font-size: 20px;
     font-weight: lighter;
     font-family: 'Roboto', sans-serif;
-
+    transition: .5s;
 }
-
+nav ul li a:hover{
+    text-decoration: underline;
+    font-size: 23px;
+}
 #Hsection{
     margin: 200px 120px;
 
@@ -64,11 +68,12 @@ nav ul li a {
     font-size: 18px;    
     font-weight: lighter;
     font-family: 'Roboto', sans-serif;
-
+    transition: .5s;
 }
 .Hbtn:hover{
     background: white;
     color: black;
+    font-size: 22px;
 }
 /* end head styles */
 
@@ -106,13 +111,13 @@ section img{
     background: white;  
     height: 700px;
     padding: 0px 0px; 
-    margin-bottom: 180px;
+    margin-bottom: 200px;
     font-family: 'Bebas Neue', cursive;
     text-align: center;  
 }
 
 #menu h1{
-    margin: 100px;
+    margin: 50px;
     margin-bottom: 0px;
     font-size: 55px; 
     font-family: 'Bebas Neue', cursive;
@@ -132,8 +137,10 @@ section img{
     margin: 0px 10px;
     background-size: cover;
     background-position: center; 
+    transition: 2s;
 
 }
+
 .title{
     padding-top: 80px;
     text-align: center;
@@ -143,22 +150,44 @@ section img{
     
 }
 #pizza {
-    background-image: url("../images/pizzaBGBlack.jpg");
-    
+    background-image: url("../images/pizzaBGBlack.jpg"); 
+}
+#pizza:hover {
+    background-image: url("../images/shallow-focus-photography-of-several-pizzas-1566837.jpg"); 
+    width: 20%;
 }
 #pasta {
     background-image: url("../images/pastaBGBlack.jpg"); 
 }
+#pasta:hover {
+    background-image: url("../images/cooked-pasta-on-brown-wooden-bowl-803963.jpg"); 
+    width: 20%;
+}
 #salad {
     background-image: url("../images/saladBGBlack.jpg");
 }
+#salad:hover {
+    background-image: url("../images/appetizer-close-up-cuisine-delicious-434258.jpg");
+    width: 20%;
+
+}
+
 #wine{
     background-image: url("../images/WingBGBlack.jpg");
 }
+#wine:hover{
+    background-image: url("../images/wine.jpg");
+    width: 20%;
+
+}
 #apps{
     background-image: url("../images/appetizersBGBlack.jpg");
-  
 }
+#apps:hover{
+    background-image: url("../images/appetizers.jpg");
+    width: 20%;
+}
+
 
 /* end menu styles */
 
@@ -174,12 +203,13 @@ section img{
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 5px;
 }
-#Rinfo{
-    padding: 150px;
+#Rinfo h1{
+    margin-bottom: 10px;
 }   
 #Rinfo{
-
-    font-size: 25px;
+    padding: 150px;
+    margin-bottom: 0px;
+    font-size: 35px;
     color: white;
     font-weight: lighter;
 }
@@ -190,7 +220,7 @@ section img{
     padding: 8px 25px;
     font-size: 16px;
     font-weight: lighter;
-
+    transition: .5s;
 }
 #Rinfo button:hover{
     background: white;
@@ -268,6 +298,7 @@ section img{
 #info{
     text-align: center;
     margin: auto;
+    font-size: 20px;    
 }
 #emails, #phone, #address{
     display: inline-block;
@@ -278,5 +309,5 @@ section img{
 
 footer{
     background: rgb(0, 0, 34);
-    height: 200px;
+    height: 150px;
 }
