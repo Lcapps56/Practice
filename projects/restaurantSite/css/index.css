@@ -137,7 +137,8 @@ section img{
     margin: 0px 10px;
     background-size: cover;
     background-position: center; 
-    transition: 2s;
+    transition-delay: 1s;
+    transition: 1s
 
 }
 
@@ -310,4 +311,90 @@ section img{
 footer{
     background: rgb(0, 0, 34);
     height: 150px;
+}
+
+@media only screen and (max-width: 1025px){
+   
+    #Sinfo{
+        margin: 0px;
+        margin-right: 20px;
+    }
+    #Sinfo h3{
+        font-size: 38px;
+        margin: 0px;
+    }
+    #Sinfo p{
+        margin: 0px;
+    }
+
+    .row{
+        width: 33%;
+    }
+
+    #emails, #phone, #address{
+        margin: 20px 50px;  
+    }
+}
+@media only screen and (max-width: 425px){
+    #landing{
+        text-align: center;
+
+    }
+    ul {
+        display: none;
+    }
+    #hamburger{
+        display: block;
+        height: 50px;
+        width: 50px;
+        background: black;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    #slogan{
+        margin: 0px;
+        margin-top: -80px;
+    }
+    .Hbtn{
+        margin: 8px;
+    }
+    #menu{
+        margin: 0px;
+        height: 500px;
+    }
+    .item{
+        margin: 0px;
+        height: 300px;
+    }
+    .title{
+        font-size: 16px;
+    }
+    #S1{
+        padding: 20px;
+    }
+    #Sinfo{
+        width: 80%;
+    }
+    #Sinfo h3{
+        font-size: 18px;
+    }
+    #Sinfo p{
+        font-size: 15px;
+    }
+    #Simg img{
+        margin: 0px;
+        margin-bottom: 20px;
+        height: 180px;
+        width: 100%;  
+    }
+    #reserve{
+        padding: 20px;
+    }
+    #Rinfo{
+        padding: 20px;
+    }
+    .row{
+        width: 32%;
+    }
 }
